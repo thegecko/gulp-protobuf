@@ -1,0 +1,48 @@
+{
+  "name": "gulp-protobuf",
+  "version": "1.0.0",
+  "description": "Gulp task for the protobufjs pbjs and pbts tools",
+  "homepage": "https://github.com/thegecko/gulp-protobuf",
+  "author": "Rob Moran <rob@thegecko.org>",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thegecko/gulp-protobuf.git"
+  },
+  "keywords": [
+    "gulp",
+    "protobuf",
+    "proto",
+    "protoc",
+    "protobufjs",
+    "pbjs",
+    "pbts",
+    "typescript"
+  ],
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "engines": {
+    "node": ">=6.12.0"
+  },
+  "devDependencies": {
+    "@types/gulp-util": "^3.0.34",
+    "@types/node": "^8.5.2",
+    "@types/through2": "^2.0.33",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-tslint": "^8.1.3",
+    "gulp-typescript": "^4.0.2",
+    "merge2": "^1.2.1",
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^5.1.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "protobufjs": "thegecko/protobufjs",
+    "through2": "^2.0.3"
+  }
+}
