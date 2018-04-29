@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.8",
-    "protobufjs": "thegecko/protobufjs",
+    "protobufjs": "thegecko/protobuf.js",
     "through2": "^2.0.3"
   }
 }
