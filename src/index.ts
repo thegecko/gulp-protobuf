@@ -27,7 +27,7 @@ import { main as pbjsCli } from "protobufjs/cli/pbjs";
 import { main as pbtsCli } from "protobufjs/cli/pbts";
 import { basename, join, dirname, extname } from "path";
 import { obj as through } from "through2";
-import { PluginError } from "gulp-util";
+import * as PluginError from "plugin-error";
 import { Transform } from "stream";
 
 const PLUGIN_NAME = "gulp-protobuf";

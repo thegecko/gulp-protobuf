@@ -28,7 +28,6 @@
     "node": ">=6.12.0"
   },
   "devDependencies": {
-    "@types/gulp-util": "^3.0.34",
     "@types/node": "^8.5.2",
     "@types/through2": "^2.0.33",
     "del": "^3.0.0",
@@ -41,7 +40,7 @@
     "typescript": "^2.8.3"
   },
   "dependencies": {
-    "gulp-util": "^3.0.8",
+    "plugin-error": "^1.0.1",
     "protobufjs": "thegecko/protobuf.js",
     "through2": "^2.0.3"
   }
