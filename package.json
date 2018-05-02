@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "plugin-error": "^1.0.1",
-    "protobufjs": "thegecko/protobuf.js",
+    "protobufjs": "thegecko/protobuf.js#f/static-server",
     "through2": "^2.0.3"
   }
 }
