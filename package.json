@@ -1,6 +1,6 @@
 {
   "name": "gulp-protobuf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp task for the protobufjs pbjs and pbts tools",
   "homepage": "https://github.com/thegecko/gulp-protobuf",
   "author": "Rob Moran <rob@thegecko.org>",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "plugin-error": "^1.0.1",
-    "protobufjs": "thegecko/protobuf.js#f/static-server",
+    "protobufjs": "^6.8.6",
     "through2": "^2.0.3"
   }
 }
